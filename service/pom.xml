@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.exerrk</groupId>
+    <artifactId>mws-service</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+    <modules>
+        <module>server</module>
+        <module>client</module>
+        <module>core</module>
+    </modules>
+
+    <properties>
+        <spring.version>4.3.10.RELEASE</spring.version>
+        <spring.boot.version>1.5.6.RELEASE</spring.boot.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!--Internal Modules-->
+            <dependency>
+                <groupId>io.github.exerrk</groupId>
+                <artifactId>mws-service-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <!--Spring Framework-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>${spring.boot.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+</project>
