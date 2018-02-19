@@ -1,7 +1,7 @@
 package io.github.exerrk.mws.service.core.dto;
 
 /**
- * @author Evan Sid (a.k.a exerrk)
+ * @author Evan Sidman
  * created in 08.2017
  */
 public class HashRateUnitDTO {

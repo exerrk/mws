@@ -5,7 +5,7 @@ import io.github.exerrk.mws.service.server.web.ApiResource;
 import org.springframework.boot.SpringApplication;
 
 /**
- * @author Evan Sid (a.k.a exerrk)
+ * @author Evan Sidman
  * created in 08.2017
  */
 public class ServerBoot {

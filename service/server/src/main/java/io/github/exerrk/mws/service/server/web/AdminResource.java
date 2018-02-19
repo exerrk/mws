@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author Evan Sid (a.k.a exerrk)
+ * @author Evan Sidman
  * created in 08.2017
  */
 @RestController

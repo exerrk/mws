@@ -3,7 +3,7 @@ package io.github.exerrk.mws.service.core.entity;
 import javax.persistence.*;
 
 /**
- * @author Evan Sid (a.k.a exerrk)
+ * @author Evan Sidman
  * created in 08.2017
  */
 @Entity
