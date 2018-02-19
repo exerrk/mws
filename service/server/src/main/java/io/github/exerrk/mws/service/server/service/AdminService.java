@@ -1,5 +1,6 @@
 package io.github.exerrk.mws.service.server.service;
 
+import io.github.exerrk.mws.service.core.dto.HashRateUnitDTO;
 import org.springframework.stereotype.Service;
 
 /**
@@ -7,6 +8,10 @@ import org.springframework.stereotype.Service;
  * created in 08.2017
  */
 @Service
-public class ApiService {
+public class AdminService {
 
+
+    public HashRateUnitDTO addUnit(HashRateUnitDTO request){
+
+    }
 }

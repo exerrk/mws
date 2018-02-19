@@ -12,5 +12,12 @@
     <artifactId>mws-service-core</artifactId>
     <name>MWS :: Service :: Core</name>
 
+    <dependencies>
+        <!-- JPA -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
