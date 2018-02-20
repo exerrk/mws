@@ -12,5 +12,17 @@
     <artifactId>mws-service-client</artifactId>
     <name>MWS :: Service :: Client</name>
 
+    <dependencies>
+        <!--Internal Modules-->
+        <dependency>
+            <groupId>io.github.exerrk</groupId>
+            <artifactId>mws-service-core</artifactId>
+        </dependency>
+        <!--Spring Framework-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
